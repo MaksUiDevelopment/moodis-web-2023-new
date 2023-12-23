@@ -5,6 +5,7 @@ img {
 
 /* Page */
 .wrapper {
+   margin: 0px -155px 0px 0px;
    min-height: 100%;
 }
 
@@ -22,6 +23,7 @@ img {
 }
 
 .header-index {
+   width: 100%;
    background: none;
    background-color: #161C35;
 }

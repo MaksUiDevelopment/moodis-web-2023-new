@@ -327,13 +327,13 @@
    }
 
    .avatar__name {
-      color: #000;
+      color: #fff;
       font-size: 19px;
       font-family: 'Rubik', sans-serif;
    }
 
    .avatar__text {
-      color: #444;
+      color: #fff;
       font-size: 17px;
       font-weight: 700;
    }

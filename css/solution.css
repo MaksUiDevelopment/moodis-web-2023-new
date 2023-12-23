@@ -85,7 +85,7 @@
 }
 
 .card__item-page {
-   width: 30%;
+   margin: 0;
 }
 
 .card__img img {
