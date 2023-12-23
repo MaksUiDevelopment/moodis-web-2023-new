@@ -1,0 +1,153 @@
+.services {
+   position: relative;
+   z-index: 999;
+   background-color: #161C35;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   padding-bottom: 70px;
+}
+
+.idfs {
+   position: relative;
+   z-index: 969;
+   background-color: #161C35;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   padding: 70px 0px 70px 0px;
+
+}
+
+.sit-service {
+   background-color: #0a2533;
+}
+
+.services__container {}
+
+.services__about {
+   margin-top: 62px;
+   width: 100%;
+}
+
+.about {}
+
+.about__title {
+
+   color: #FF8D30;
+   font-size: 45px;
+   font-style: normal;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.about__text {
+   text-indent: 30px;
+   padding: 57px 0px 38px 0px;
+   color: #FFF;
+   text-align: justify;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 34px;
+   /* 121.429% */
+}
+
+.about__solution {
+   text-indent: 30px;
+   margin-bottom: 85px;
+   color: #FFF;
+   font-size: 25px;
+   text-align: justify;
+   font-style: italic;
+   font-weight: 400;
+   line-height: 34px;
+   /* 114.286% */
+}
+
+/* .about__button {
+   margin-bottom: 123px;
+
+   width: 274px;
+   height: 70px;
+   padding: 20px 35px;
+
+   background: #FFD74B;
+   border-radius: 20px;
+}
+
+.button__text {
+   text-align: start;
+   color: #1D2E5B;
+   font-size: 24px;
+   font-weight: 700;
+}
+
+.about__button:hover {
+   cursor: pointer;
+   background-color: #FFBD30;
+} */
+
+
+
+.service__inner {
+   margin-top: 62px;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.sit-about {
+   margin-top: 0;
+   width: 50%;
+}
+
+.service__img {
+   width: 45%;
+}
+
+.service__img img {
+   max-width: 100%;
+}
+
+.service-sit__img-show {
+   display: none;
+}
+
+@media (max-width: 1225px) {
+   .hide-1225 {
+      display: none;
+   }
+}
+
+@media (max-width: 991px) {
+   .hide-1225 {
+      display: block;
+   }
+
+   .services__about {
+      margin-top: 0;
+   }
+
+   .service-sit__img {
+      display: none;
+   }
+
+   .sit-about {
+      width: 100%;
+   }
+
+   .sit__title {
+      text-align: center;
+   }
+
+   .service-sit__inner {
+      margin-top: -1px;
+      padding-top: 50px;
+   }
+
+   .service-sit__img-show {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+   }
+}

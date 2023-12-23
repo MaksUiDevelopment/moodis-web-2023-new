@@ -1,0 +1,32 @@
+.parting {
+   position: relative;
+   z-index: 995;
+   /* border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px; */
+   background-color: #192144;
+   margin-top: -50px;
+}
+
+.parting__container {}
+
+.parting__inner {
+   padding: 80px 0px 80px 0px;
+}
+
+.parting__text {
+   color: #fff;
+   text-align: center;
+   font-size: 100px;
+   font-weight: 700;
+}
+
+.parting__video {
+   display: flex;
+   justify-content: center;
+}
+
+@media (max-width: 654px) {
+   .parting__text {
+      font-size: 60px;
+   }
+}
