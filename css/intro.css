@@ -34,9 +34,13 @@
 .intro__inner {
    display: flex;
    flex-wrap: wrap;
-   justify-content: end;
+   justify-content: start;
    margin-top: 160px;
    padding: 0px 90px 0px 40px;
+}
+
+.intro__inner-index {
+   justify-content: end;
 }
 
 .intro__item {
