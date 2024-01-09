@@ -151,7 +151,6 @@ img {
 }
 
 .menu__link:active {
-   font-size: 9px;
    font-weight: normal;
    opacity: 0.3;
 }

@@ -80,8 +80,14 @@ body._lock {
    color: #FF8D30;
 }
 
+.highligted-tth {
+   font-weight: 500;
+   font-style: italic;
+   color: #ea8c3f;
+}
+
 .tp-tf {
-   color: #FF8D30;
+   color: #ea8c3f;
 }
 
 .td-tt {
@@ -95,4 +101,8 @@ body._lock {
 
 .red-lineeee {
    text-indent: 30px;
+}
+
+video {
+   max-width: 100%;
 }
